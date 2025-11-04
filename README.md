@@ -1,12 +1,24 @@
-# 2025-ANN
-2025 2학기 인공신경망 수업
+# 🧠 인공신경망 (ANN) 및 딥러닝 기초 입문 과정 🚀
 
-# 중간고사
-1시간 이론 시험, 2시간 실습 시험
+> **"인간의 뇌를 모방한 인공신경망부터 최신 딥러닝 알고리즘까지, 인공지능의 핵심 원리를 학습합니다."**
 
-# github 연결할 때 사용하기!
-git config --global user.name "parksuejin1026" <br>
-git config --global user.email "suejin1026suejin@gmail.com"<br>
-git remote add origin https://github.com/parksuejin1026/2025-ANN.git<br>
-git init<br>
-git pull origin main --allow<br>
+---
+
+## 📖 상세 커리큘럼 및 학습 내용
+
+| Weeks | 주요 주제 | 세부 학습 내용 |
+| :---: | :--- | :--- |
+| **Week1** | **인공지능 및 신경망 개요** | 인공지능/머신러닝/딥러닝 관계, AI 역사 (퍼셉트론, XOR 문제), 인간 신경망 기초, Colab 실습 환경 설정 |
+| **Week2** | **AI 기초 수학과 선형 회귀** | 일차/이차 함수, 미분/편미분, 시그모이드, **선형 회귀**, **MSE** 및 **경사 하강법(GD)** 원리 |
+| **Week3** | **평균제곱오차와 경사하강법** | **평균 제곱 오차(MSE)**의 의미와 계산, **경사 하강법(GD)**을 통한 최적의 기울기 찾기 (수학 및 코드 실습), **다중 선형 회귀** 개념 |
+| **Week4** | **로지스틱 회귀와 퍼셉트론** | **로지스틱 회귀** (Sigmoid), 오차 함수 (Cross Entropy), **퍼셉트론** 개념 및 구조, 퍼셉트론의 **XOR 문제** 한계 |
+| **Week5** | **다층 퍼셉트론과 XOR 해결** | **다층 퍼셉트론(MLP)** 설계 및 구조, 은닉층을 활용한 **XOR 문제 해결 원리** 및 코드 실습, MLP의 한계 (학습 방법의 부재) |
+| **Week6** | **오차 역전파 및 고급 최적화** | **오차 역전파(Backpropagation)** 원리 및 알고리즘, 기울기 소실 문제 (ReLU 등장), **고급 경사 하강법** (SGD, Momentum, **Adam**) |
+
+---
+
+## 🛠️ 실습 환경 및 도구
+
+* **AI 개발 환경:** Google Colab (클라우드 기반)
+* **언어/라이브러리:** Python, Numpy, Matplotlib, **TensorFlow/Keras**
+* **주요 알고리즘:** 선형 회귀, 로지스틱 회귀, 퍼셉트론, 다층 퍼셉트론, 경사 하강법
